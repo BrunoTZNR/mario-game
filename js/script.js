@@ -36,8 +36,8 @@ const restart = () => {
     mario.style.bottom = '0';
     mario.style.animation = null;
 
-    
-    pipe.style.right = '100%';
+    pipe.style.animation = null;
+    pipe.style.left =  null;
 }
 
 botao.addEventListener('click', restart);
